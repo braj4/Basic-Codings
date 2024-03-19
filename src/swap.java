@@ -1,18 +1,15 @@
 import java.util.*;
 public class swap {
     public static void main(String[] args) {
-        Scanner sc= new Scanner(System.in);
-        System.out.println("swapping world:");
-        System.out.println("first value:");
-        int a=sc.nextInt();
-        System.out.println("second value:");
-        int b=sc.nextInt();
-        int c=a;
-        a=b;
-        b=c;
+     int a=9;
+     int b=9;
+        System.out.println("before swapping,a = "+a + " and b="+b);
+        a=a+b;
+        b=a-b;
+        a=a-b;
 
-        System.out.println("first value: " + a);
-        System.out.println("second value: " + b);
+        System.out.println("after swapping,a = "+a + " and b="+b);
+
     }
 
 }
